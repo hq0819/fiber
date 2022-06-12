@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+        <div>
+            <form action="/signin" method="post">
+               用户名 <input name="username"> &nbsp;密码<input name="passwd"> <button type="submit" name="登录" value="登录"></button>
+            </form>
+
+
+            文件上传：
+            <form method="post" action="/signin" enctype="multipart/form-data">
+            选择文件：<input type="file" name="files">
+                <button type="submit" value="提交"></button>
+            </form>
+        </div>
+
+
+</body>
+</html>
